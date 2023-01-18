@@ -1,0 +1,150 @@
+#header{
+    background: linear-gradient(90deg, #E31937 0%, #A82465 62.5%, #5236AB 100%);
+    left: 0px;
+    top: 0px;
+    padding: 5%;
+    height:100vh;
+}
+
+#header-row{
+    display: flex;
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%; */
+    flex-direction: row;
+    
+}
+
+#column1 {
+    float: left;
+    width: 50%;
+    
+  }
+#column1 p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+
+    width: 160px;
+    height: 55px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+#column2 {
+    float: right;
+    width: 50%;
+  }
+
+#column2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+    gap: 10px;
+    color: #FFFFFF;
+    height: 55px;
+
+}
+#column2 a{
+   
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+
+#nav-link :active{
+    width: 146px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+
+#section1-body{
+
+    margin-top: 120px;
+    margin-bottom: 60px;
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+#body-title{
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    padding:5%;
+    line-height: 61px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#body-contents{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.52%;
+    /* or 23px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+#arrowDown{
+    
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 90;
+    bottom: 10%;
+
+}
